@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible">
+    <title>O meni</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cardo" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./main.css">
+    <link href="./kontakt.html">
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <!-- slajd šou u zaglavlju -->
+        <div id="slideShow" class="carousel slide text-center m-4" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#slideShow" data-slide-to="0" class="active"></li>
+                <li data-target="#slideShow" data-slide-to="1"></li>
+                <li data-target="#slideShow" data-slide-to="2"></li>
+            </ul>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://www.webbello.it/front/blog/247/15313809781_OF0xEMkWBv-69zvmNs6RDQ.gif"
+                        alt="JavaScript gif" width="70%" height="auto">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://i.gifer.com/Spkx.gif" alt="Bootstrap gif" width="50%" height="auto">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://thumbs.gfycat.com/SpottedConventionalAlaskajingle-small.gif" alt="PHP gif"
+                        width="60%" height="auto">
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#slideShow" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#slideShow" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+
+        <!-- navbar -->
+        <div class="mx-auto mt-5 sticky-top">
+            <nav class="navbar navbar-expand-sm">
+                <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse"
+                    data-target="#prikriveniNavbar">
+                    <span class="navbar-toggler-icon text-light">+</span>
+                    <!-- ne pojavljuje se ikonica za navbar, zato je dodat "+" -->
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="prikriveniNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">O meni</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" id="aProjekti">Projekti</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./kontakt.html">Kontakt</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <!-- glavni sadržaj -->
+        <main class="row justify-content-center">
+            <div class="col-sm-6 p-5">
+                    <img src="./CV image.JPG" alt="slika za CV" id="cvImg">
+                    <ul>
+                        <li class="cv">Milan Pavićević</li>
+                        <li class="cv">Datum rođenja: 24.11.1976.</li>
+                        <li class="cv">Obrazovanje: srednja grafička škola</li>
+                    </ul>
+                    <p>
+                    Susedni tekst trenutno nije istinit ali se nadam da ću uz pomoć tima predavača sa MatF-a u što
+                    skorije vreme moći da obrišem ovaj deo i da time sledeći učinim istinitim.
+                    </p>
+            </div>
+            <div class="col-sm-6 p-5">
+                <p>
+                    Ja sam web programer iz Beograda sa iskustvom u dizajniranju i izradi web sajtova koji su
+                    jedinstveni i profesionalni. Obožavam svoj posao i volim da pretvaram Vaše ideje i koncepte u
+                    profitabilne web prezentacije . Svojim znanjem i iskustvom web sajt činim funkcionalnim, modernim i
+                    optimizovanim za pretrazivače, čime ispunjavam visoke standarde na webu a Vas i Vaše proizvode i
+                    usluge činim konkurentnim i dostupnim hiljadama potencijalnih mušterija.
+                    <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero eligendi dolores tenetur expedita
+                    consequatur neque harum perferendis tempore repellendus? Quam provident soluta officia inventore
+                    eligendi minus, quae molestias unde itaque! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Laboriosam animi impedit exercitationem tenetur odit. Assumenda modi reiciendis quis aliquam maiores
+                    dolore illum, possimus perferendis est, enim voluptatum suscipit, ad tenetur? Lorem ipsum dolor sit
+                    amet consectetur adipisicing elit. Deserunt vero quisquam quibusdam iste adipisci maxime
+                    repellendus, provident aliquam asperiores eius eveniet optio sed voluptatibus itaque eaque, ea eos
+                    sit deleniti. -->
+                </p>
+            </div>
+        </main>
+
+        <!-- futer -->
+        <footer class="bg-dark">
+            <p class="text-white p-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum iusto
+                consequatur quia maxime molestias
+                ullam. Expedita nostrum recusandae repellat harum eius unde excepturi, voluptas nam rerum, doloremque
+                praesentium commodi natus.</p>
+        </footer>
+    </div>
+</body>
+
+</html>

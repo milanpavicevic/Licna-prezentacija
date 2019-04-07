@@ -1,0 +1,36 @@
+body {
+    background-color: rgba(49, 138, 226, 0.87);
+    width: 90%;
+    margin: auto;
+}
+
+a {
+    color: white;
+}
+
+li {
+    list-style-position: inside;
+}
+
+#cvImg {
+    width: 150px;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+}
+
+nav {
+    background-image: radial-gradient(black 1%, rgba(10, 10, 10, 0.2) 70%);
+    border-radius: 25px;
+}
+
+#aProjekti {
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+main p, .cv {
+    font-family: 'Cardo', serif;
+    font-size: 18px;
+    font-weight: bold;
+}
