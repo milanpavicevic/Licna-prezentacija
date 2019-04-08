@@ -13,6 +13,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Cardo" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./main.css">
+    <link href="./index.html">
+    <link href="./projekti.html">
 </head>
 
 <body>
@@ -20,7 +22,8 @@
         <!-- navbar -->
         <div class="mx-auto mt-5 sticky-top">
             <nav class="navbar navbar-expand-sm">
-                <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#prikriveniNavbar">
+                <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse"
+                    data-target="#prikriveniNavbar">
                     <span class="navbar-toggler-icon text-light">+</span>
                     <!-- ne pojavljuje se ikonica za navbar, zato je dodat "+" -->
                 </button>
@@ -30,7 +33,7 @@
                             <a class="nav-link" href="./index.html">O meni</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" id="aProjekti">Projekti</a>
+                            <a class="nav-link" href="./projekti.html" id="aProjekti">Projekti</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./kontakt.html">Kontakt</a>
@@ -43,19 +46,33 @@
         <!-- glavni sadržaj -->
         <main class="row">
             <div class="col-sm-4 p-5 mx-auto">
-                    <img src="./CV image.JPG" alt="slika za CV" id="cvImg" style="width: 250px; height: auto;">
+                <img src="./CV image.JPG" alt="slika za CV" id="cvImg" style="width: 250px; height: auto;">
             </div>
             <div class="col-sm-5 p-5 mx-auto">
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero eligendi dolores tenetur expedita
                     consequatur neque harum perferendis tempore repellendus? Quam provident soluta officia inventore
                     eligendi minus, quae molestias unde itaque! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Laboriosam animi impedit exercitationem tenetur odit. Assumenda modi reiciendis quis aliquam maiores
-                    dolore illum, possimus perferendis est, enim voluptatum suscipit, ad tenetur?
                 </p>
             </div>
-        </main>
 
+            <!-- formular za mejl -->
+            <div class="col-12 text-center">
+                <h2>Kontaktirajte me putem mejla:</h2>
+
+                <form action="mailto:milanpavicevic76@gmail.com" method="post" enctype="text/plain">
+                    Ime i prezime:<br>
+                    <input type="text" name="ime" placeholder="Petar Petrović"><br>
+                    E-mail:<br>
+                    <input type="text" name="email" placeholder="someone@example.com"><br>
+                    Komentar:<br>
+                    <input type="text" name="komentar" size="50"><br><br>
+                    <input type="submit" value="Pošalji">
+                    <input type="reset" value="Obriši">
+                </form>
+            </div>
+        </main>
+        <br><br>
         <!-- futer -->
         <footer class="bg-dark">
             <p class="text-white p-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum iusto
