@@ -1,11 +1,8 @@
 body {
-	background-image: url(index/glogovac-sepija180.jpg);
+	background-image: url("glogovac-sepija180.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	/*background-size: cover;*/
-	/*background: transparent 0.5;*/
-    /*filter: alpha(Opacity=50);
-    opacity: 0.5;*/
+	background-size: cover;
 }
 
 nav {
@@ -28,11 +25,11 @@ a {
 
 .sadržaj {
 	width: 80%;
-	position: relative;
+	position: absolute;
     left: 10%;
 	font-family: 'Lora', serif;
 	font-size: 20px;
-	font-weight: 600;
+	font-weight: 580;
 	background-color: rgba(255, 255, 255, 0.2);
 	text-indent: 15px;
 }
@@ -92,7 +89,6 @@ tfoot td {
 .karijera-gora {
 	width:430px;
 	height: 330px;
-	/*float: left;*/
 	margin: 15px;
 	margin-left: 50px;
 }
