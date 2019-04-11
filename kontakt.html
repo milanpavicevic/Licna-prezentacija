@@ -25,7 +25,6 @@
                 <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse"
                     data-target="#prikriveniNavbar">
                     <span class="navbar-toggler-icon text-light">+</span>
-                    <!-- ne pojavljuje se ikonica za navbar, zato je dodat "+" -->
                 </button>
                 <div class="collapse navbar-collapse justify-content-center" id="prikriveniNavbar">
                     <ul class="navbar-nav">
@@ -49,36 +48,43 @@
                 <img src="./CV image.JPG" alt="slika za CV" id="cvImg" style="width: 250px; height: auto;">
             </div>
             <div class="col-sm-5 p-5 mx-auto">
+                <h4>Možete me kontaktirati putem:</h4>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero eligendi dolores tenetur expedita
-                    consequatur neque harum perferendis tempore repellendus? Quam provident soluta officia inventore
-                    eligendi minus, quae molestias unde itaque! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Facebook-a, na profil: <a href="https://www.facebook.com/profile.php?id=100000610766077" target="_blank">Милан Павићевић</a>,<br>
+                    na telefon: 064 / 612 - 92 - 64,
+                    <br>
+                    ili preko GitHub-a na nalog <span id="gH">milanpavicevic</span>.
                 </p>
             </div>
-
-            <!-- formular za mejl -->
-            <div class="col-12 text-center">
-                <h2>Kontaktirajte me putem mejla:</h2>
-
+            <div class="container text-center">
+                <h4>Kontaktirajte me putem mejla:</h4>
                 <form action="mailto:milanpavicevic76@gmail.com" method="post" enctype="text/plain">
-                    Ime i prezime:<br>
-                    <input type="text" name="ime" placeholder="Petar Petrović"><br>
-                    E-mail:<br>
-                    <input type="text" name="email" placeholder="someone@example.com"><br>
-                    Komentar:<br>
-                    <input type="text" name="komentar" size="50"><br><br>
-                    <input type="submit" value="Pošalji">
-                    <input type="reset" value="Obriši">
+                    <div class="form-group">
+                        <label for="ime">Ime i prezime:</label>
+                        <br>
+                        <input type="text" name="ime" id="ime" placeholder="Petar Petrović" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mail">E-mail:</label>
+                        <br>
+                        <input type="text" name="mail" id="mail" placeholder="vas_email@primer.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="poruka">Vaša poruka:</label>
+                        <br>
+                        <textarea name="poruka" id="poruka" cols="50" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-success mr-5">Pošalji</button>
+                    <button type="reset" class="btn btn-danger">Obriši</button>
                 </form>
             </div>
         </main>
         <br><br>
-        <!-- futer -->
-        <footer class="bg-dark">
-            <p class="text-white p-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum iusto
-                consequatur quia maxime molestias
-                ullam. Expedita nostrum recusandae repellat harum eius unde excepturi, voluptas nam rerum, doloremque
-                praesentium commodi natus.</p>
+
+        <footer class="container-fluid text-center">
+            <div class="text-white">
+                <p class="copyright-text pt-3 text-white">Copyright © 2019 <br> <a href="#" style="color: rgb(170, 170, 170);">https://milanpavicevic.rs/</a><br> Sva prava zadržana.</p>
+            </div>
         </footer>
     </div>
 </body>

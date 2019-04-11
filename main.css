@@ -20,8 +20,8 @@ li {
 }
 
 nav {
-    background-image: radial-gradient(black 1%, rgba(10, 10, 10, 0.2) 70%);
     border-radius: 25px;
+    background-image: radial-gradient(black 1%, rgba(10, 10, 10, 0.2) 50%);
 }
 
 #aProjekti {
@@ -29,8 +29,22 @@ nav {
     padding-left: 80px;
 }
 
-main p, .cv {
+.cv, main p, form {
     font-family: 'Cardo', serif;
-    font-size: 18px;
     font-weight: bold;
+    text-indent: 10px;
+}
+
+h4 {
+    font-family: 'Cardo', serif;
+    font-weight: bold;
+}
+#gH {
+    text-decoration: underline;
+}
+
+footer {
+    background-image: radial-gradient(black 5%, rgba(10, 10, 10, 0.2) 80%);
+    border-radius: 15px;
+    height: 100px;
 }
